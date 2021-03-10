@@ -193,26 +193,29 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form action="https://formsubmit.co/muhamadelvinsubianto@gmail.com" method="POST">
+            <form action="https://formsubmit.co/gandainkalcit@gmail.com" method="POST">
               <div class="mb-3">
-                <label for="naame" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="nama" aria-describedby="nama" required />
+                <input type="hidden" name="_subject" value="Pesan Baru" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" placeholder="Email Address" class="form-control" />
               </div>
               <div class="mb-3">
                 <input type="hidden" name="_next" value="https://muhamadelvinsubianto.github.io/portfolio-elvin/pages/thanks.html" />
               </div>
               <div class="mb-3">
-                <input type="hidden" name="_subject" value="New submission!" />
+                <input type="hidden" name="_captcha" value="false" />
               </div>
+              <input type="hidden" name="_template" value="basic" />
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" required />
+                <label for="naame" class="form-label">Nama Lengkap</label>
+                <input type="text" name="name" required class="form-control" />
               </div>
               <div class="mb-3">
                 <label for="pesan" class="form-label">Pesan</label>
                 <textarea class="form-control" id="pesan" rows="3" name="message"></textarea>
               </div>
-
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
           </div>
