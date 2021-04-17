@@ -13,3 +13,13 @@ body {
 section {
   padding-top: 5rem;
 }
+footer{
+  background-color: #9819be;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .jumbotron {
+    background-color: lightblue;
+  }
+}
